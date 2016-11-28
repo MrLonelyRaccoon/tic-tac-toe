@@ -7,7 +7,7 @@
   <body>
     <svg id="game-board" width="80%" viewBox="0 0 300 300">
       <!-- Create all the shapes for your game board here! -->
-<rect  x="0" y="0" width="90" height="90" fill="red" onclick ="makeShape()"<rect/>
+<rect  x="0" y="0" width="90" height="90" fill="red" onclick ="createCircle()"/>
 <rect x="100" y="0" width="90" height="90" fill="green" />
 <rect  x="200" y="0" width="90" height="90" fill="blue" />
 <rect  x="0" y="100" width="90" height="90" fill="pink" />
@@ -16,7 +16,6 @@
 <rect  x="0" y="200" width="90" height="90" fill="brown" />
 <rect  x="100" y="200" width="90" height="90" fill="purple" />
 <rect  x="200" y="200" width="90" height="90" fill="gold" />
-
     </svg>
 
     <!-- This line of code points to your JavaScript file. No need to touch it. -->
